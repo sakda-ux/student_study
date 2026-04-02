@@ -1,121 +1,123 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ศูนย์การเรียนรู้อาชีวะออนไลน์</title>
   <style>
-    body{
-      margin:0;
-      font-family:Tahoma,sans-serif;
-      background:#eef2f7;
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      background: #eef2f7;
     }
 
-    .top-header{
-      background:#0d4d96;
-      color:white;
-      text-align:center;
-      padding:30px 20px;
+    .top-header {
+      background: #0d4d96;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
     }
 
-    .top-header h1{
-      margin:0;
-      font-size:36px;
+    .top-header h1 {
+      margin: 0;
+      font-size: 36px;
     }
 
-    .top-header p{
-      margin-top:10px;
-      font-size:16px;
+    .top-header p {
+      margin-top: 10px;
+      font-size: 16px;
     }
 
-    .subject-menu{
-      display:flex;
-      justify-content:center;
-      gap:12px;
-      flex-wrap:wrap;
-      background:#f5f5f5;
-      padding:14px;
+    .subject-menu {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      background: #f5f5f5;
+      padding: 14px;
     }
 
-    .subject-btn{
-      background:#e9eef7;
-      border:none;
-      padding:10px 18px;
-      border-radius:20px;
-      cursor:pointer;
-      font-weight:bold;
-      color:#0d4d96;
+    .subject-btn {
+      background: #e9eef7;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      color: #0d4d96;
     }
 
-    .subject-btn.active{
-      background:#0d4d96;
-      color:white;
+    .subject-btn.active {
+      background: #0d4d96;
+      color: white;
     }
 
-    .subject-content{
-      display:none;
-      max-width:900px;
-      margin:20px auto;
-      background:white;
-      border-radius:18px;
-      padding:20px;
-      box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    .subject-content {
+      display: none;
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
-    .subject-content.active{
-      display:block;
+    .subject-content.active {
+      display: block;
     }
 
-    .subject-title{
-      background:#1565c0;
-      color:white;
-      border-radius:18px;
-      padding:20px;
-      margin-bottom:20px;
+    .subject-title {
+      background: #1565c0;
+      color: white;
+      border-radius: 18px;
+      padding: 20px;
+      margin-bottom: 20px;
     }
 
-    .subject-title h2{
-      margin:0 0 10px 0;
-      font-size:22px;
+    .subject-title h2 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
     }
 
-    .unit-card{
-      background:#f8fbff;
-      border-left:4px solid orange;
-      border-radius:14px;
-      padding:16px;
-      margin-bottom:16px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    .unit-card {
+      background: #f8fbff;
+      border-left: 4px solid orange;
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
 
-    .unit-card h3{
-      margin-top:0;
-      color:#0d4d96;
+    .unit-card h3 {
+      margin-top: 0;
+      color: #0d4d96;
     }
 
-    .button-group{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
-      gap:10px;
-      margin-top:12px;
+    .button-group {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 10px;
+      margin-top: 12px;
     }
 
-    .content-btn{
-      display:block;
-      text-decoration:none;
-      text-align:center;
-      background:#dfe8f5;
-      color:#0d4d96;
-      padding:12px;
-      border-radius:10px;
-      font-weight:bold;
+    .content-btn {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      background: #dfe8f5;
+      color: #0d4d96;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: bold;
     }
 
-    .content-btn:hover{
-      background:#cfdcf0;
+    .content-btn:hover {
+      background: #cfdcf0;
     }
   </style>
 </head>
+
 <body>
 
   <header class="top-header">
@@ -143,7 +145,7 @@
         <a href="#" class="content-btn">📘 เนื้อหา</a>
         <a href="#" class="content-btn">📝 แบบทดสอบก่อนเรียน</a>
         <a href="#" class="content-btn">📄 ใบงาน</a>
-        <a href="https://drive.google.com/file/d/1mFTYtNUQdlbqc37fRRssRJCpSbL8LVYF/view?usp=sharing" class="content-btn">🎥 วิดีโอการสอน</a>
+        <a href="#" class="content-btn">🎥 วิดีโอการสอน</a>
         <a href="#" class="content-btn">✅ แบบทดสอบหลังเรียน</a>
       </div>
     </div>
@@ -158,8 +160,45 @@
         <a href="#" class="content-btn">🎥 วิดีโอการสอน</a>
         <a href="#" class="content-btn">✅ แบบทดสอบหลังเรียน</a>
       </div>
+      </div>
+      <div class="unit-card">
+        <h3>หน่วยที่ 3 ผังงานและรหัสเทียม</h3>
+        <p>ฝึกวิเคราะห์งานและออกแบบลำดับขั้นตอนการทำงานของโปรแกรม</p>
+        <div class="button-group">
+          <a href="#" class="content-btn">📘 เนื้อหา</a>
+          <a href="#" class="content-btn">📝 แบบทดสอบก่อนเรียน</a>
+          <a href="#" class="content-btn">📄 ใบงาน</a>
+          <a href="#" class="content-btn">🎥 วิดีโอการสอน</a>
+          <a href="#" class="content-btn">✅ แบบทดสอบหลังเรียน</a>
+        </div>
+      </div>
+    
+    <div class="unit-card">
+      <h3>หน่วยที่ 4 ผังงานและรหัสเทียม</h3>
+      <p>ฝึกวิเคราะห์งานและออกแบบลำดับขั้นตอนการทำงานของโปรแกรม</p>
+      <div class="button-group">
+        <a href="#" class="content-btn">📘 เนื้อหา</a>
+        <a href="#" class="content-btn">📝 แบบทดสอบก่อนเรียน</a>
+        <a href="#" class="content-btn">📄 ใบงาน</a>
+        <a href="#" class="content-btn">🎥 วิดีโอการสอน</a>
+        <a href="#" class="content-btn">✅ แบบทดสอบหลังเรียน</a>
+      </div>
+    </div>
+    
+    <div class="unit-card">
+      <h3>หน่วยที่ 5 ผังงานและรหัสเทียม</h3>
+      <p>ฝึกวิเคราะห์งานและออกแบบลำดับขั้นตอนการทำงานของโปรแกรม</p>
+      <div class="button-group">
+        <a href="#" class="content-btn">📘 เนื้อหา</a>
+        <a href="#" class="content-btn">📝 แบบทดสอบก่อนเรียน</a>
+        <a href="#" class="content-btn">📄 ใบงาน</a>
+        <a href="#" class="content-btn">🎥 วิดีโอการสอน</a>
+        <a href="#" class="content-btn">✅ แบบทดสอบหลังเรียน</a>
+      </div>
     </div>
   </div>
+  
+
 
   <!-- วิชา 2 -->
   <div id="subject2" class="subject-content">
@@ -191,7 +230,20 @@
         <a href="#" class="content-btn">✅ แบบทดสอบหลังเรียน</a>
       </div>
     </div>
+    <div class="unit-card">
+      <h3>หน่วยที่ 3 โครงสร้างภาษา HTML</h3>
+      <p>ฝึกเขียนโครงสร้างเอกสาร HTML และการใช้แท็กพื้นฐานสำหรับสร้างหน้าเว็บ</p>
+      <div class="button-group">
+        <a href="#" class="content-btn">📘 เนื้อหา</a>
+        <a href="#" class="content-btn">📝 แบบทดสอบก่อนเรียน</a>
+        <a href="#" class="content-btn">📄 ใบงาน</a>
+        <a href="#" class="content-btn">🎥 วิดีโอการสอน</a>
+        <a href="#" class="content-btn">✅ แบบทดสอบหลังเรียน</a>
+      </div>
+    </div>
   </div>
+  </div>
+
 
   <!-- วิชา 3 -->
   <div id="subject3" class="subject-content">
@@ -204,13 +256,8 @@
 
 
 
-
-
-
-
-
   <script>
-    function showSubject(subjectId, btn){
+    function showSubject(subjectId, btn) {
       const subjects = document.querySelectorAll('.subject-content');
       const buttons = document.querySelectorAll('.subject-btn');
 
@@ -223,4 +270,5 @@
   </script>
 
 </body>
+
 </html>
